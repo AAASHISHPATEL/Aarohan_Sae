@@ -81,7 +81,7 @@ function App() {
       </div>
 
       <div className="w-full my-20 lg:mt-0 overflow-hidden">
-        <div className="  flex max-w-full flex-col  rounded-md  lg:flex-row mx-10 my-10 lg:mx-36 lg:my-28 lg:justify-between">
+        <div className="  flex max-w-full flex-col  rounded-md  lg:flex-row mx-10 my-10 xl:mx-36 lg:my-28 lg:justify-between">
           <div className="h-full w-full lg:h-[400px] lg:w-[590px] ">
             <img
               src="https://images.pexels.com/photos/16070201/pexels-photo-16070201.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=600&amp;lazy=load"
@@ -111,7 +111,7 @@ function App() {
             </p>
           </div>
         </div>
-        <div className="  flex max-w-full flex-col  rounded-md  lg:flex-row-reverse mx-10 my-28 lg:mx-36 lg:my-28 lg:justify-between">
+        <div className="  flex max-w-full flex-col  rounded-md  lg:flex-row-reverse mx-10 my-28 xl:mx-36 lg:my-28 lg:justify-between">
           <div className="h-full w-full lg:h-[400px] lg:w-[590px] ">
             <img
               src="https://images.pexels.com/photos/16070143/pexels-photo-16070143.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=600&amp;lazy=load"
@@ -152,7 +152,7 @@ function App() {
           OUR EVENTS AND WORKSHOPS IN AAROHAN
         </h1>
       </div>
-      <div className="w-full grid grid-col-1 md:grid-cols-2 lg:grid-cols-3 px-10 lg:px-32 my-10 gap-5">
+      <div className="w-full grid grid-col-1 md:grid-cols-2 xl:grid-cols-3 px-10 lg:px-32 my-10 gap-5">
         {events.map((event) => (
           <div data-aos="fade-up">
             <div
