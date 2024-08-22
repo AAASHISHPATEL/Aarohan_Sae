@@ -8,16 +8,16 @@ const Organisers = () => {
   return (
     <div className=" w-full grid grid-col-1 md:grid-cols-2 lg:grid-cols-3 px-10 lg:px-32 my-10 gap-5 ">
       {organizers.map((organiser, index) => (
-        /* From Uiverse.io by vinodjangid07 */
-        <div class="org-card justify-self-center">
-          <div class="background  w-full h-full">
+        
+        <div class="org-card  justify-self-center">
+          <div class="background   w-full h-full">
             <img
               className="w-full h-full   org-img"
               src={organiser.url}
               alt=""
             />
           </div>
-          <div class="pt-4 font-bold text-[#bec4da] text-xl md:text-2xl w-full text-center">
+          <div class="pt-4 font-bold text-[#bec4da] text-xl md:text-2xl w-full h-full text-center">
             {organiser.name}
           </div>
 
@@ -37,7 +37,7 @@ const Organisers = () => {
 
           <a href={organiser.linkedinLink}>
             <div class="box box2">
-              {" "}
+              
               <span class="icon">
                 <svg
                   viewBox="0 0 24 24"
@@ -68,7 +68,7 @@ const Organisers = () => {
 
           <div class="box box4"></div>
         </div>
-        /* From Uiverse.io by ElsayedShamsEldeen */
+        
       ))}
     </div>
   );

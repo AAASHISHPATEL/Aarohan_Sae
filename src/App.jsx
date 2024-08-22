@@ -4,7 +4,7 @@ import { events, arhn_gallary} from "./Script";
 import AOS from 'aos';
 import 'aos/dist/aos.css'
 import "./Organisers.jsx"
-import Organisers2 from "./Organisers2.jsx";
+import Organisers from "./Organisers.jsx";
 
 
 
@@ -211,7 +211,7 @@ function App() {
         </h1>
       </div>
 
-      <Organisers2 />
+      <Organisers />
       {/* <div className="w-full lg:px-28 flex flex-wrap mt-10 justify-center py-20 gap-5">
         {organizers.map((arhn_org) => (
           <div className="arhn-rotate">
