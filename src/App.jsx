@@ -154,7 +154,7 @@ function App() {
       </div>
       <div className="w-full grid grid-col-1 md:grid-cols-2 xl:grid-cols-3 px-10 lg:px-32 my-10 gap-5">
         {events.map((event) => (
-          <div data-aos="fade-up">
+          <div key={event.id} data-aos="fade-up">
             <div
               key={event.id}
               className="arhn-card w-full md:h-[400px] h-[350px]"
@@ -206,7 +206,7 @@ function App() {
       </div>
       
       <div data-aos="fade-right">
-        <h1 className="py-24 text-center text-5xl text-[#FF0000] font-extrabold underline">
+        <h1 className="py-24 md:pt-36 text-center text-5xl text-[#FF0000] font-extrabold underline">
           AAROHAN ORGANIZERS
         </h1>
       </div>

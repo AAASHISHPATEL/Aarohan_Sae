@@ -41,11 +41,11 @@
   
 }
 
-.org-img{
+.arhn-org-img{
   transition: all .3s cubic-bezier(.6, .4, 0, 1);
 }
 
-.arhn-org-card:hover .org-img{
+.arhn-org-card:hover .arhn-org-img{
   /* background: var(--hover-bg); */
   opacity: 0.3;
 }

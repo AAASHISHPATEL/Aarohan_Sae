@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
-import "./Alum2.css";
+import "./ArhnOrg2.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import (useEffect)
+
 import { organizers } from "./Script";
 
 const Organisers2 = () => {
@@ -16,9 +16,9 @@ const Organisers2 = () => {
   return (
     <div className=" justify-center  w-full grid grid-col-1 md:grid-cols-2 xl:grid-cols-3 px-10 lg:px-32 gap-5   ">
       {organizers.map((organiser, index) => (
-        <div class="arhn-org-card justify-self-center" data-aos="fade-up">
+        <div key={index} className="arhn-org-card justify-self-center" data-aos="fade-up">
           <img
-            className="org-img w-full h-full"
+            className="arhn-org-img w-full h-full"
             src={organiser.url}
             alt=""
           />
